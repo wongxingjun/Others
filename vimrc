@@ -5,7 +5,7 @@ set history=300
 set number
 set nuw=1
 "highlight LineNr guifg=gray
-hi linenr ctermfg=darkgray
+"hi linenr ctermfg=darkgray
 set background=light
 set relativenumber
 set modeline
@@ -18,7 +18,7 @@ set backspace=2
 set tabstop=4
 set shiftwidth=4
 set completeopt=menu
-"colorscheme molokai
+colorscheme molokai 
 set cindent
 set smartindent
 set ruler
@@ -63,4 +63,9 @@ let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_seed_identifiers_with_syntax = 1
 let g:ycm_confirm_extra_conf = 0
 
+"Markdown
+Plugin 'tpope/vim-markdown'
+"color scheme
+Plugin 'tomasr/molokai'
+Plugin 'flazz/vim-colorschemes'
 
