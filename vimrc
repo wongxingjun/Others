@@ -27,16 +27,15 @@ set showcmd
 set foldenable
 set foldmethod=manual
 set go=
-"增量搜索
+
 set incsearch
-"高亮搜索
 set hlsearch
+
 set cursorline 
 hi CursorLine cterm=NONE ctermbg=black ctermfg=NONE  guibg=NONE guifg=NONE
 "set cursorcolumn 
 
-
-"自动补全代码插件YCM
+"YouCompleteMe Plugin. Code auto complete.
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
@@ -44,8 +43,8 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
 " Bundle 'The-NERD-Commenter'
 " Bundle 'The-NERD-Tree'
-"Bundle 'AutoComplPop'
 "Bundle 'tomasr/molokai'
+
 """"""""""syntastic""""""""""""
 let g:syntastic_check_on_open = 1
 let g:syntastic_cpp_include_dirs = ['/usr/include/']
@@ -65,6 +64,7 @@ let g:ycm_confirm_extra_conf = 0
 
 "Markdown
 Plugin 'tpope/vim-markdown'
+
 "color scheme
 Plugin 'tomasr/molokai'
 Plugin 'flazz/vim-colorschemes'
