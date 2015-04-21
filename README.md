@@ -11,4 +11,4 @@ Others
   Compilation configurations of Linux kernel 3.2.30 with Xen 4.2.0
 
 - [vimrc](https://github.com/wongxingjun/Others/vimrc)
-  My vim editor configurations file.
+  My vim editor configuration file.
