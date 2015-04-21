@@ -69,3 +69,11 @@ Plugin 'tpope/vim-markdown'
 Plugin 'tomasr/molokai'
 Plugin 'flazz/vim-colorschemes'
 
+
+"author information auto adding
+Bundle 'dantezhu/authorinfo'
+let g:vimrc_author='Xingjun Wang'
+let g:vimrc_email='wongxingjun@gmail.com'
+nmap <F4> :AuthorInfoDetect<cr>
+Bundle 'scrooloose/nerdcommenter'
+
