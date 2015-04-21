@@ -42,8 +42,8 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
-Bundle 'The-NERD-Commenter'
-Bundle 'The-NERD-Tree'
+" Bundle 'The-NERD-Commenter'
+" Bundle 'The-NERD-Tree'
 "Bundle 'AutoComplPop'
 "Bundle 'tomasr/molokai'
 """"""""""syntastic""""""""""""
