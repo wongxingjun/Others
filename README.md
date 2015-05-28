@@ -2,7 +2,7 @@ Others
 ======
 ###This repository includes:
 - SourceCodePro
-  My favorite coding fonts published by Adobe.
+  My favorite coding font published by Adobe.
 
 - monaco-font-master
   A font which is similar to Apple's.
@@ -11,7 +11,7 @@ Others
   Compilation configurations of Linux kernel 3.2.30 with Xen 4.2.0
 
 - vimrc
-  My vim editor configuration file.
+  My vim editor configuration.
 
 - heart.c
   A simple program to draw my heart into a Photoshop file heart.ppm.
