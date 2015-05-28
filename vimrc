@@ -41,8 +41,9 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
-" Bundle 'The-NERD-Commenter'
-" Bundle 'The-NERD-Tree'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-commentary'
+"Bundle 'scrooloose/nerdcommenter'
 "Bundle 'tomasr/molokai'
 
 """"""""""syntastic""""""""""""
@@ -65,6 +66,9 @@ let g:ycm_confirm_extra_conf = 0
 "Markdown
 Plugin 'tpope/vim-markdown'
 
+"scala
+Bundle 'derekwyatt/vim-scala' 
+
 "color scheme
 Plugin 'tomasr/molokai'
 Plugin 'flazz/vim-colorschemes'
@@ -76,4 +80,3 @@ let g:vimrc_author='Xingjun Wang'
 let g:vimrc_email='wongxingjun@gmail.com'
 nmap <F4> :AuthorInfoDetect<cr>
 Bundle 'scrooloose/nerdcommenter'
-
