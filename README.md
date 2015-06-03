@@ -1,17 +1,17 @@
 Others
 ======
 ###This repository includes:
-- SourceCodePro
+- *SourceCodePro*
   My favorite coding fonts published by Adobe.
 
-- monaco-font-master
+- *monaco-font-master*
   A font which is similar to Apple's.
 
-- config-3.2.30
+- *config-3.2.30*
   Compilation configurations of Linux kernel 3.2.30 with Xen 4.2.0
 
-- vimrc
+- *vimrc*
   My vim editor configuration file.
 
-- heart.c
+- *heart.c*
   A simple program to draw my heart into a Photoshop file heart.ppm.
