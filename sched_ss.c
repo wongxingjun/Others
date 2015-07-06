@@ -6,6 +6,7 @@
  *      Author: Emmanuel Ackaouy
  *
  * Description: Credit-based SMP CPU scheduler
+ * Modified By Xingjun Wang for Spark Streaming Scheduling.
  */
 
 #include <xen/config.h>
@@ -1672,9 +1673,9 @@ static void csched_tick_resume(const struct scheduler *ops, unsigned int cpu)
 static struct csched_private _csched_priv;
 
 const struct scheduler sched_credit_def = {
-    .name           = "SMP Credit Scheduler",
-    .opt_name       = "credit",
-    .sched_id       = XEN_SCHEDULER_CREDIT,
+    .name           = "Spark Scheduler",
+    .opt_name       = "ss",
+    .sched_id       = XEN_SCHEDULER_SS,
     .sched_data     = &_csched_priv,
 
     .init_domain    = csched_dom_init,
