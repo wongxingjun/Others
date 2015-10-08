@@ -1,6 +1,4 @@
-#Others
-======
-##This repository includes:
+#This repository includes:
 - **SourceCodePro**
   My favorite coding font published by Adobe.
 - **monaco-font-master**
