@@ -9,4 +9,6 @@ git clone git@github.com:wongxingjun/k-vim.git
 cd k-vim
 chmod +x install.sh
 ./install.sh
-
+mkdir -p /usr/lib/java
+mkdir -p /usr/lib/scala
+mkdir -p /usr/lib/go
