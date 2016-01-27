@@ -11,4 +11,5 @@ chmod +x install.sh
 ./install.sh
 mkdir -p /usr/lib/java
 mkdir -p /usr/lib/scala
-mkdir -p /usr/lib/go
+sudo apt-get install ctags cscope
+sudo apt-get install python-dev
