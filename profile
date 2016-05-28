@@ -32,7 +32,7 @@ fi
 #Java
 export  JAVA_HOME=/usr/lib/java/jdk1.8.0_65/
 export  CLASSPATH=$CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/jre/lib
-export  PATH=PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
+export  PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
 
 #Scala
 export SCALA_HOME=/usr/lib/scala/scala-2.10.4
